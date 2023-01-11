@@ -17,13 +17,13 @@ const SearchBar = () => {
     dispatch(searchpokemon(e.target.value))
   }
 
-  function handleSubmit(e) {
+ /*  function handleSubmit(e) {
     dispatch(getPokemonName(name));
-  }
+  } */
 
   return (
     <div className={styles.container}>
-      <input type='text' placeholder='Search Pokemon...' onChange={e => handleInputChange(e)} />
+      <input type='text' placeholder='Search Pokemon... ' onChange={e => handleInputChange(e)} />
       {/* <button type='submit' onClick={e => handleSubmit(e)}>Search</button> */}
     </div>
   )
