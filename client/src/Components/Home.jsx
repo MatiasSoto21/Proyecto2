@@ -62,7 +62,7 @@ const Home = () => {
               </select>
             </div>
             <div>
-              Sort By<select onChange={e => handleOrder(e)}>
+              Sort By <select onChange={e => handleOrder(e)}>
                 <option value="max">➕Attack</option>
                 <option value="min">➖Attack</option>
               </select>
